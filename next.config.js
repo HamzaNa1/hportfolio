@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+	images: {
+		domains: ["i.imgur.com"],
+	},
+	experimental: {
+		appDir: true,
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
